@@ -50,8 +50,7 @@ class Quiz extends Component {
     if (this.state.quiz.questions.length === this.state.step + 1) {
       let confirm = window.confirm('Are you sure to submit your answers?')
       if(confirm === true) {
-      alert("Your answers: " + JSON.stringify(this.state.answers));
-      moveToNextStep = true
+        moveToNextStep = true
       } else {
         moveToNextStep = false
       }
@@ -81,6 +80,7 @@ class Quiz extends Component {
         {completed
           ? <div className="alert alert-success">
               <h3 className="text-center">Thank you for submiting your answers!</h3>
+              <h4 className="text-center">Here is collected answers keys in JSON Format: {JSON.stringify(this.state.answers)}</h4>
             </div>
           : <div className="form-container">
             <h2>Question {step + 1}
