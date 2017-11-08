@@ -1,0 +1,107 @@
+{
+  "questions": [
+    {
+      "question": "What does HTML stand for?",
+      "name": "q1",
+      "type": "single",
+      "answers": [
+        {
+          
+          "label": "Home Tool Markup Language",
+          "key": 1
+        },
+        {
+          
+          "label": "Hyper Text Markup Language",
+          "key": 2
+        },
+        {
+          
+          "label": "Hyperlinks and Text Markup Language",
+          "key": 3
+        }
+      ]
+    },
+    {
+      "question": "Which of these elements are all <table> elements?",
+      "name": "q2",
+     "type": "multiple",
+      "answers": [
+        {
+          
+          "label": "<table>",
+          "key": 1
+        },
+        {
+          
+          "label": "<tr>",
+          "key": 2
+        },
+        {
+          
+          "label": "<tfoot>",
+          "key": 3
+        },
+        {
+          
+          "label": "<head>",
+          "key": 4
+        }
+      ]
+    },
+    {
+      "question": "Choose the correct HTML element for the largest heading:",
+      "name": "q3",
+      "type": "single",
+      "answers": [
+        {
+          
+          "label": "<h1>",
+          "key": 1
+        },
+        {
+          
+          "label": "<head>",
+          "key": 2
+        },
+        {
+          
+          "label": "<heading>",
+          "key": 3
+        },
+        {
+          
+          "label": "<h6>",
+          "key": 4
+        }
+      ]
+    },
+    {
+      "question": "What is the correct HTML element for inserting a line break?",
+      "name": "q4",
+      "type": "single",
+      "answers": [
+        {
+          
+          "label": "<br>",
+          "key": 1
+        },
+        {
+          
+          "label": "<break>",
+          "key": 2
+        },
+        {
+          
+          "label": "<lb>",
+          "key": 3
+        },
+         {
+          
+          "label": "<hr>",
+          "key": 4
+        }
+      ]
+    }
+  ]
+}
